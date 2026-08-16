@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HVAC Service Request Demo</title>
+</head>
+
+<body>
+  <main>
+    <h1>Request HVAC Service</h1>
+
+    <p>
+      Submit your information below and we'll follow up about your service request.
+    </p>
+
+    <form>
+      <label for="name">Name</label><br>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+      >
+
+      <br><br>
+
+      <label for="phone">Phone Number</label><br>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        required
+      >
+
+      <br><br>
+
+      <label for="service">Service Needed</label><br>
+      <select id="service" name="service" required>
+        <option value="">Select a service</option>
+        <option value="AC Repair">AC Repair</option>
+        <option value="Heating Repair">Heating Repair</option>
+        <option value="Maintenance">Maintenance</option>
+        <option value="Installation">Installation</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <br><br>
+
+      <label for="message">Tell us what's going on</label><br>
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        required
+      ></textarea>
+
+      <br><br>
+
+      <label>
+        <input
+          type="checkbox"
+          id="smsConsent"
+          name="smsConsent"
+        >
+        I agree to receive text messages related to my service inquiry
+        and appointment updates. Message frequency varies. Message and
+        data rates may apply. Reply STOP to opt out or HELP for help.
+        Consent is not a condition of purchase.
+      </label>
+
+      <br><br>
+
+      <button type="submit">Request Service</button>
+    </form>
+
+    <p>
+      <a href="privacy.html">Privacy Policy</a>
+      |
+      <a href="terms.html">Terms &amp; SMS Terms</a>
+    </p>
+  </main>
+</body>
+</html>
