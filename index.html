@@ -1,89 +1,170 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Customer Messaging Demo</title>
+  <title>Ahmed Alazzawi | Customer Automation Services</title>
 </head>
 
 <body>
   <main>
-    <h1>Ahmed Alazzawi - Customer Messaging Demo</h1>
 
-    <p>
-      This demonstration service is operated by Ahmed Alazzawi
-      for testing customer inquiry, scheduling, and messaging workflows.
-    </p>
+```
+<header>
+  <h1>Ahmed Alazzawi</h1>
+  <h2>Customer Automation Services</h2>
 
-    <p>
-      Submit your information below and we'll follow up about your service request.
-    </p>
+  <p>
+    Customer communication and automation services designed to help
+    service businesses manage customer inquiries, scheduling,
+    follow-up, and messaging workflows.
+  </p>
+</header>
 
-    <form>
-      <label for="name">Name</label><br>
+<hr>
+
+<section>
+  <h2>Services</h2>
+
+  <p>
+    Services include customer inquiry automation, lead follow-up,
+    scheduling assistance, appointment communications, and automated
+    customer messaging workflows.
+  </p>
+
+  <p>
+    Businesses can use these systems to respond to customer inquiries
+    and help customers move from an initial service request to the
+    appropriate next step.
+  </p>
+</section>
+
+<hr>
+
+<section>
+  <h2>Request Information</h2>
+
+  <p>
+    Submit the form below to request information about a service.
+    Providing SMS consent is optional.
+  </p>
+
+  <form>
+
+    <label for="name">Name</label><br>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      required
+    >
+
+    <br><br>
+
+    <label for="phone">Phone Number</label><br>
+    <input
+      type="tel"
+      id="phone"
+      name="phone"
+      required
+    >
+
+    <br><br>
+
+    <label for="service">Service Needed</label><br>
+    <select id="service" name="service" required>
+      <option value="">Select a service</option>
+      <option value="Customer Inquiry Automation">
+        Customer Inquiry Automation
+      </option>
+      <option value="Lead Follow-Up">
+        Lead Follow-Up
+      </option>
+      <option value="Scheduling Automation">
+        Scheduling Automation
+      </option>
+      <option value="Customer Messaging">
+        Customer Messaging
+      </option>
+      <option value="Other">
+        Other
+      </option>
+    </select>
+
+    <br><br>
+
+    <label for="message">Tell us what you need help with</label><br>
+    <textarea
+      id="message"
+      name="message"
+      rows="5"
+      required
+    ></textarea>
+
+    <br><br>
+
+    <label>
       <input
-        type="text"
-        id="name"
-        name="name"
-        required
+        type="checkbox"
+        id="smsConsent"
+        name="smsConsent"
       >
+      I agree to receive text messages from Ahmed Alazzawi related
+      to my service inquiry, scheduling, appointment updates, and
+      follow-up. Message frequency varies. Message and data rates
+      may apply. Reply STOP to opt out or HELP for help. Consent is
+      not a condition of purchase.
+    </label>
 
-      <br><br>
+    <br><br>
 
-      <label for="phone">Phone Number</label><br>
-      <input
-        type="tel"
-        id="phone"
-        name="phone"
-        required
-      >
+    <button type="submit">Submit Request</button>
 
-      <br><br>
+  </form>
+</section>
 
-      <label for="service">Service Needed</label><br>
-      <select id="service" name="service" required>
-        <option value="">Select a service</option>
-        <option value="Service Request">Service Request</option>
-        <option value="Appointment">Appointment</option>
-        <option value="Maintenance">Maintenance</option>
-        <option value="Estimate">Estimate</option>
-        <option value="Other">Other</option>
-      </select>
+<hr>
 
-      <br><br>
+<section>
+  <h2>SMS Messaging</h2>
 
-      <label for="message">Tell us what you need help with</label><br>
-      <textarea
-        id="message"
-        name="message"
-        rows="5"
-        required
-      ></textarea>
+  <p>
+    Customers who voluntarily opt in may receive text messages
+    related to their inquiry, scheduling, appointment information,
+    and follow-up communications.
+  </p>
 
-      <br><br>
+  <p>
+    Message frequency varies. Message and data rates may apply.
+    Reply STOP to opt out or HELP for assistance.
+  </p>
+</section>
 
-      <label>
-        <input
-          type="checkbox"
-          id="smsConsent"
-          name="smsConsent"
-        >
-        I agree to receive text messages from Ahmed Alazzawi related to
-        my service inquiry and appointment updates. Message frequency
-        varies. Message and data rates may apply. Reply STOP to opt out
-        or HELP for help. Consent is not a condition of purchase.
-      </label>
+<hr>
 
-      <br><br>
+<section>
+  <h2>Contact</h2>
 
-      <button type="submit">Request Service</button>
-    </form>
+  <p>
+    Email:
+    <a href="mailto:ahmedalazzawi120@gmail.com">
+      ahmedalazzawi120@gmail.com
+    </a>
+  </p>
+</section>
 
-    <p>
-      <a href="privacy.html">Privacy Policy</a>
-      |
-      <a href="terms.html">Terms &amp; SMS Terms</a>
-    </p>
+<footer>
+  <p>
+    <a href="privacy.html">Privacy Policy</a>
+    |
+    <a href="terms.html">Terms &amp; SMS Terms</a>
+  </p>
+
+  <p>&copy; 2026 Ahmed Alazzawi</p>
+</footer>
+```
+
   </main>
 </body>
 </html>
